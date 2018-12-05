@@ -8,8 +8,8 @@ from sqlalchemy.ext.declarative import declarative_base
 
 
 db_online = {
-    "db_connect_string": "mysql+mysqldb://root:qwer1234@localhost/wrwahut?charset=utf8",
-    "db_dining": "mysql+mysqldb://root:cjb.123456!@47.104.89.74/cjbsp?charset=utf8",
+    "db_connect_string": "mysql+mysqldb://root:qwer1234@localhost/wrwahut3?charset=utf8",
+    "db_dining": "mysql+mysqldb://cjb_out:cjb_out@47.105.55.39/cjbsp4?charset=utf8",
     "Tredis": {
         "host": "localhost",
         "port": 6379,
