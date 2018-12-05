@@ -106,7 +106,8 @@ def get_user_order():
             info["fee"] = order.fee
             info["person_count"] = order.person_count
             info["shop_phone"] = order.shop_phone
-            info["total_box_fee"] = order.total_box_fee
+            # info["total_box_fee"] = order.total_box_fee
+            info["total_box_fee"] = "-"
             info["status"] = order.status
             goods = json.loads(order.goods_list)
             total_price = 0
@@ -156,7 +157,8 @@ def get_all_orders():
             info["fee"] = order.fee
             info["person_count"] = order.person_count
             info["shop_phone"] = order.shop_phone
-            info["total_box_fee"] = order.total_box_fee
+            # info["total_box_fee"] = order.total_box_fee
+            info["total_box_fee"] = "-"
             info["status"] = order.status
             goods = json.loads(order.goods_list)
             total_price = 0
@@ -218,7 +220,8 @@ def get_printed_orders():
             info["fee"] = order.fee
             info["person_count"] = order.person_count
             info["shop_phone"] = order.shop_phone
-            info["total_box_fee"] = order.total_box_fee
+            # info["total_box_fee"] = order.total_box_fee
+            info["total_box_fee"] = "-"
             info["status"] = order.status
             goods = json.loads(order.goods_list)
             total_price = 0

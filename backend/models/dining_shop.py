@@ -28,6 +28,7 @@ class Dining_shop(CRUD,db.Model):
     recommend = db.Column(db.Integer)
     tel_phone = db.Column(db.VARCHAR(11))
     success_fee = db.Column(db.FLOAT)
+    is_bind = db.Column(db.Integer)
     plate_fee = db.Column(db.FLOAT)
     full_cut = db.Column(db.Text)
     is_full_cut = db.Column(db.Integer)
@@ -36,4 +37,3 @@ class Dining_shop(CRUD,db.Model):
     score = db.Column(db.Integer)
     star = db.Column(db.Integer, default=7)
     complain_count = db.Column(db.Integer,default=0)
-    box_fee = db.Column(db.FLOAT)

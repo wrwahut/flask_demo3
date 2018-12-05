@@ -31,4 +31,4 @@ class Dining_goods(CRUD,db.Model):
     points = db.Column(db.Integer)
     detail_desc = db.Column(db.Text)
     shop_name = db.Column(db.VARCHAR(255))
-    is_box_fee = db.Column(db.Integer)
+    # is_box_fee = db.Column(db.Integer)
