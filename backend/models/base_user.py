@@ -43,6 +43,6 @@ class Base_user(CRUD,db.Model):
     cash_points_money = db.Column(db.Integer)
     cash_points = db.Column(db.Integer)
     signature = db.Column(db.VARCHAR(255))
-    user_id = db.Column(db.VARCHAR(255))
+    # user_id = db.Column(db.VARCHAR(255))
     parent_id = db.Column(db.VARCHAR(10))
     is_first_order = db.Column(db.VARCHAR(1))
