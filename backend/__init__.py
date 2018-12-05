@@ -54,6 +54,7 @@ def after_request(response):
 def get_user_Info(phone):
     shop = query_from_argument(Dining_shop, {"phone": phone}).first()
     if shop:
+        print "##########",shop.user_id
         token_data = {"user_id": shop.user_id, "phone": phone}
         user = query_from_argument(Base_user, {"id": shop.user_id}).first()
         if user:
