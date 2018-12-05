@@ -59,4 +59,4 @@ class Dining_order(CRUD,db.Model):
     shop_win = db.Column(db.FLOAT)
     sending_type = db.Column(db.Integer)
     is_plat_refund = db.Column(db.Integer)
-    total_box_fee = db.Column(db.FLOAT)
+    # total_box_fee = db.Column(db.FLOAT)
